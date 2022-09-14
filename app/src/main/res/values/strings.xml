@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Units Converter</string>
+    <string name="currency_converter">currency converter</string>
+    <string name="temperature_converter">temperature converter</string>
+    <string name="measure_converter">measure converter</string>
+    <string name="speed_converter">speed converter</string>
+</resources>

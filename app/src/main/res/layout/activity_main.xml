@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/teal_700">
+
+    <LinearLayout
+        android:layout_margin="3dp"
+        android:id="@+id/currency_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/layout_background"
+        android:backgroundTint="#b3c9df"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/currency_converter"
+            android:textAllCaps="true"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:rotationY="-15"
+            android:scaleType="centerInside"
+            android:src="@drawable/exchange" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="3dp"
+        android:id="@+id/temperature_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:background="@drawable/layout_background"
+        android:backgroundTint="#c5d6e7"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="fill"
+            android:text="@string/temperature_converter"
+            android:textAllCaps="true"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:rotationY="-15"
+            android:scaleType="centerInside"
+            android:src="@drawable/temperature" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="3dp"
+        android:id="@+id/measure_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:background="@drawable/layout_background"
+        android:backgroundTint="#b3c9df"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="fill"
+            android:text="@string/measure_converter"
+            android:textAllCaps="true"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:rotationY="-15"
+            android:scaleType="centerInside"
+            android:src="@drawable/scale" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="3dp"
+        android:id="@+id/speed_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/layout_background"
+        android:backgroundTint="#92b2d3"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tv_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="fill"
+            android:text="@string/speed_converter"
+            android:textAllCaps="true"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/iv_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:rotationY="-15"
+            android:scaleType="centerInside"
+            android:src="@drawable/speedometer" />
+
+    </LinearLayout>
+
+</LinearLayout>
